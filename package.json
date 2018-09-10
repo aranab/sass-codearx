@@ -1,0 +1,27 @@
+{
+  "name": "sass-codearx",
+  "version": "0.0.1",
+  "description": "This is learning project about sass, gulpjs, nodejs, css, html and other tools.",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aranab/sass-codearx.git"
+  },
+  "author": "Md. Arafat Rahman Rana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aranab/sass-codearx/issues"
+  },
+  "homepage": "https://github.com/aranab/sass-codearx#readme",
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "gulp-jshint": "^2.1.0",
+    "gulp-ruby-sass": "^3.0.0",
+    "gulp-sourcemaps": "^2.6.4",
+    "gulp-webserver": "^0.9.1",
+    "jshint": "^2.9.6"
+  }
+}
