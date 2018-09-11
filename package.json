@@ -17,11 +17,18 @@
   },
   "homepage": "https://github.com/aranab/sass-codearx#readme",
   "devDependencies": {
+    "browserify": "^16.2.2",
     "gulp": "^4.0.0",
+    "gulp-connect": "^5.6.1",
     "gulp-jshint": "^2.1.0",
     "gulp-ruby-sass": "^3.0.0",
     "gulp-sourcemaps": "^2.6.4",
-    "gulp-webserver": "^0.9.1",
-    "jshint": "^2.9.6"
+    "gulp-uglify": "^3.0.1",
+    "jshint": "^2.9.6",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "dependencies": {
+    "jquery": "^3.3.1"
   }
 }

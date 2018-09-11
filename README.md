@@ -130,9 +130,33 @@ This is learning project about:
    1. Install [node.js](https://nodejs.org/en/) (*If don't install before*)
    2. Run command inside terminal `npm init` (*Note: check before run command that directory has been whether point to project folder.*)
    3. Run `npm install --global gulp-cli` [(*gulp js installation project*)](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md)
+ - Dependencies:
+   1. [jquery](): Run `npm install --save jquery`
  - Dev Dependencies:
-   1. [gulp](https://www.npmjs.com/package/gulp): Run `npm install --save-dev gulp` and Create `gulpfile.js` file
+   1. [gulp v4.0.0](https://github.com/gulpjs/gulp#installation): Run `npm install --save-dev gulp@next`
+      or [gulp v3.9.1](https://github.com/gulpjs/gulp): Run `npm install --save-dev gulp` and Create `gulpfile.js` file.
+      gulp v3.9.1 and gulp v4.0.0 are different in configuration syntax. In this project, we use [gulp v4.0.0 and its configurations](https://github.com/gulpjs/gulp/blob/master/docs/getting-started/3-creating-tasks.md).
    2. [gulp-jshint](https://www.npmjs.com/package/gulp-jshint): Run `npm install --save-dev jshint gulp-jshint`
    3. [gulp-ruby-sass](https://www.npmjs.com/package/gulp-ruby-sass): Run `npm install --save-dev gulp-ruby-sass`
    4. [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps): Run `npm install --save-dev gulp-sourcemaps`
-   5. [gulp-webserver](https://www.npmjs.com/package/gulp-webserver): Run `npm install --save-dev gulp-webserver`
+   5. [gulp-uglify](https://www.npmjs.com/package/gulp-uglify): Run `npm install --save-dev gulp-uglify`
+   6. [gulp-connect](https://www.npmjs.com/package/gulp-connect): Run `npm install --save-dev gulp-connect`
+   7. [browserify](https://www.npmjs.com/package/browserify): Run `npm install --save-dev browserify`
+   8. [jshint](https://www.npmjs.com/package/jshint): Run `npm install --save-dev jshint`
+   9. [vinyl-buffer](https://www.npmjs.com/package/vinyl-buffer): Run `npm install --save-dev vinyl-buffer`
+   10. [vinyl-source-stream](https://www.npmjs.com/package/vinyl-source-stream): Run `npm install --save-dev vinyl-source-stream`
+
+## Setting up a folder structure:
+   ```
+   |- sass-codearx
+      |- assets
+         |- js
+            |- scripts.js
+         |- scss
+            |- styles.scss
+      |- css
+         |- styles.css
+      |- js
+         |- scripts.js
+      |- index.html
+   ```
