@@ -166,4 +166,4 @@ This is learning project about:
    ```
    
 ## License
- Single license MI
+ Single license MIT
