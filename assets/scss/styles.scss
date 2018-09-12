@@ -1,0 +1,20 @@
+$bgColor: #000;
+$color: #fff;
+$pColor: #999;
+
+body {
+    background: $bgColor;
+    color: $color;
+    div {
+        margin: 0 auto;
+        width: 70%;
+        text-align: center;
+    }
+    h1 {        
+        font-size: 60px;        
+    }
+    p {
+        font-size: 20px;
+        color: $pColor;
+    }
+}
