@@ -147,7 +147,7 @@ This is learning project about:
    10. [vinyl-source-stream](https://www.npmjs.com/package/vinyl-source-stream): Run `> npm install --save-dev vinyl-source-stream`
    11. [del](https://www.npmjs.com/package/del): Run `> npm install --save-dev del`
    12. [jshint-stylish](https://www.npmjs.com/package/jshint-stylish) Run `> npm install --save-dev jshint-stylish`
-- Run gulp task command: `gulp`
+- Run gulp task command: `> gulp`
 
 ## Setting up a folder structure:
    ```
