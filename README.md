@@ -128,26 +128,26 @@ This is learning project about:
    that we have to make to a server.
  - So, template building process as following:
    1. Install [node.js](https://nodejs.org/en/) (*If don't install before*)
-   2. Run command inside terminal `npm init` (*Note: check before run command that directory has been whether point to project folder.*)
-   3. Run `npm install --global gulp-cli` [(*gulp js installation project*)](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md)
+   2. Run command inside terminal `> npm init` (*Note: check before run command that directory has been whether point to project folder.*)
+   3. Run `> npm install --global gulp-cli` [(*gulp js installation project*)](https://github.com/gulpjs/gulp/blob/v3.9.1/docs/getting-started.md)
  - Dependencies:
-   1. [jquery](): Run `npm install --save jquery`
+   1. [jquery](): Run `> npm install --save jquery`
  - Dev Dependencies:
-   1. [gulp v4.0.0](https://github.com/gulpjs/gulp#installation): Run `npm install --save-dev gulp@next`
-      or [gulp v3.9.1](https://github.com/gulpjs/gulp): Run `npm install --save-dev gulp` and Create `gulpfile.js` file.
+   1. [gulp v4.0.0](https://github.com/gulpjs/gulp#installation): Run `> npm install --save-dev gulp@next`
+      or [gulp v3.9.1](https://github.com/gulpjs/gulp): Run `> npm install --save-dev gulp` and Create `gulpfile.js` file.
       gulp v3.9.1 and gulp v4.0.0 are different in configuration syntax. In this project, we use [gulp v4.0.0 and its configurations](https://github.com/gulpjs/gulp/blob/master/docs/getting-started/3-creating-tasks.md).
-   2. [gulp-jshint](https://www.npmjs.com/package/gulp-jshint): Run `npm install --save-dev jshint gulp-jshint`
-   3. [gulp-dart-sass](https://www.npmjs.com/package/gulp-dart-sass): Run `npm install --save-dev gulp-dart-sass`
-   4. [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps): Run `npm install --save-dev gulp-sourcemaps`
-   5. [gulp-uglify](https://www.npmjs.com/package/gulp-uglify): Run `npm install --save-dev gulp-uglify`
-   6. [gulp-connect](https://www.npmjs.com/package/gulp-connect): Run `npm install --save-dev gulp-connect`
-   7. [browserify](https://www.npmjs.com/package/browserify): Run `npm install --save-dev browserify`
-   8. [jshint](https://www.npmjs.com/package/jshint): Run `npm install --save-dev jshint`
-   9. [vinyl-buffer](https://www.npmjs.com/package/vinyl-buffer): Run `npm install --save-dev vinyl-buffer`
-   10. [vinyl-source-stream](https://www.npmjs.com/package/vinyl-source-stream): Run `npm install --save-dev vinyl-source-stream`
-   11. [del](https://www.npmjs.com/package/del): Run `npm install --save-dev del`
-   12. [jshint-stylish](https://www.npmjs.com/package/jshint-stylish) Run `npm install --save-dev jshint-stylish`
-- Run gulp task command: `gulp`
+   2. [gulp-jshint](https://www.npmjs.com/package/gulp-jshint): Run `> npm install --save-dev jshint gulp-jshint`
+   3. [gulp-dart-sass](https://www.npmjs.com/package/gulp-dart-sass): Run `> npm install --save-dev gulp-dart-sass`
+   4. [gulp-sourcemaps](https://www.npmjs.com/package/gulp-sourcemaps): Run `> npm install --save-dev gulp-sourcemaps`
+   5. [gulp-uglify](https://www.npmjs.com/package/gulp-uglify): Run `> npm install --save-dev gulp-uglify`
+   6. [gulp-connect](https://www.npmjs.com/package/gulp-connect): Run `> npm install --save-dev gulp-connect`
+   7. [browserify](https://www.npmjs.com/package/browserify): Run `> npm install --save-dev browserify`
+   8. [jshint](https://www.npmjs.com/package/jshint): Run `> npm install --save-dev jshint`
+   9. [vinyl-buffer](https://www.npmjs.com/package/vinyl-buffer): Run `> npm install --save-dev vinyl-buffer`
+   10. [vinyl-source-stream](https://www.npmjs.com/package/vinyl-source-stream): Run `> npm install --save-dev vinyl-source-stream`
+   11. [del](https://www.npmjs.com/package/del): Run `> npm install --save-dev del`
+   12. [jshint-stylish](https://www.npmjs.com/package/jshint-stylish) Run `> npm install --save-dev jshint-stylish`
+- Run gulp task command: `> gulp`
 
 ## Setting up a folder structure:
    ```
@@ -164,6 +164,57 @@ This is learning project about:
             |- bundle.js
       |- index.html
    ```
+
+## Html structure should be aware of:
+ - Typography
+ - Container
+ - Header
+ - Branding logo, text, favicon, icon
+ - jumbotron
+ - Slider
+ - Top navigation
+ - Footer navigation
+ - Left/Right side bar
+ - Left/Right side navigation
+ - Navigation tree
+ - Breadcrumb
+ - Content body
+ - Button
+ - Lists of article or content
+ - Order/unorder list
+ - Media items: image and video
+ - Table
+ - Forms
+ - Footer
+ - Responsive Layout
+
+## JS interaction should be aware of:
+ - Showing alerts text or layout
+ - Form submission
+ - Modal popup
+ - Sliding Image
+ - Social media content slider
+ - Image or video gallery
+ - Dropdowns
+ - Hash tag smooth scrolling
+ - Pagination
+ - Interactive progress bar
+ - tooltips
+ - Content list collapse
+ - Particles effect
+ - parallax effect
+ - Google map
+
+## Get some nice fonts, color and layout:
+ - [Google Fonts](https://fonts.google.com/)
+ - [Adobe TypeKit](https://typekit.com/)
+ - [Coolors](https://coolors.co/)
+ - [Material Color](https://material.io/design/color/the-color-system.html#color-usage-palettes)
+ - [Material Design](https://material.io/)
+ - [Normalize CSS](http://necolas.github.io/normalize.css/)
+
+## Sass rules should be followed:
+ - For nesting, we have to don't nest things in too deep or the rules that Sass will generate are going to be too unwieldy. Therefore, we will not doing any more than about three or four levels deep.
    
 ## License
  Single license MIT
