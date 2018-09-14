@@ -93,6 +93,30 @@ This is learning project about:
      }
    }
    ```
+   
+### Referencing parent selectors with &:
+   ```
+   .item {
+       padding-bottom: 20px;
+       padding-top: 10px;
+       padding-left: 10px;
+       border-top: 1px dotted $color-item-border;
+
+       &:hover {
+           background: $yellow;
+       }
+
+       &:last-of-type {
+           border-bottom: 1px dotted $color-item-border;
+       }
+      
+       // Checking parent element id named 'typography' 
+       // and if find so then apply
+       #typography & {		
+           color: $red;
+       }
+   }
+   ```
 
 ### Sass can write in two different ways that are:
    1. Old way `.sass` extension.
