@@ -1,7 +1,7 @@
 $color-btn-text: $color-backgrounds;
-$color-btn-default: $color-main;
-$color-btn-hot: $red;
-$color-btn-cool: $blue;
+// $color-btn-default: $color-main;
+// $color-btn-hot: $red;
+// $color-btn-cool: $blue;
 $roundness: 20px 0 20px 0;
 
 %btn {
@@ -18,19 +18,32 @@ $roundness: 20px 0 20px 0;
     color: $color-btn-text;
 }
 
-.btn-default {
-    @extend %btn;
-    background: $color-btn-default;
-}
+// just list
+// $color-btn-name: 'default', 'hot', 'cool';
+// $color-btn-values: $color-main, $red, $blue;
 
-.btn-hot {
-    @extend %btn;
-    background: $color-btn-hot;
-}
+// @each $name in $color-btn-name {
+//     $i: index($color-btn-name, $name);
 
-.btn-cool {
-    @extend %btn;
-    background: $color-btn-cool;
+//     .btn-#{$name} {
+//         @extend %btn;
+//         background-color: nth($color-btn-values, $i);
+//     }
+// }
+
+// Associative list: Sass are called maps
+$color-btns: (
+    default: $color-main,
+    hot: $red,
+    cool: $blue,
+    awesome: $purple
+);
+
+@each $key, $value in $color-btns {
+    .btn-#{$key} {
+        @extend %btn;
+        background-color: $value;
+    }
 }
 
 .grid {

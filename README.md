@@ -118,7 +118,7 @@ This is learning project about:
    }
    ```
 
-### Sass functions and list:
+### Sass functions, list and directives:
  - [Color modification function](http://sass-lang.com/documentation/Sass/Script/Functions.html): 
    [complement()](http://sass-lang.com/documentation/Sass/Script/Functions.html#complement-instance_method), 
    [opacify()](http://sass-lang.com/documentation/Sass/Script/Functions.html#opacify-instance_method), 
@@ -128,7 +128,9 @@ This is learning project about:
  - [Special function](http://sass-lang.com/documentation/Sass/Script/Functions.html): [nth()](http://sass-lang.com/documentation/Sass/Script/Functions.html#nth-instance_method)
  - List should be separated values are by comma or space and special character 
    or string should be declared in single or double quote. For example: $roundness: 20px 0 20px 0;
- - List is not zero index base like other programming languages. It's indexes are initiate from 1.
+ - List and maps(Associative Array) are not zero index base like other programming languages. It's indexes are initiate from 1.
+ - [Sass directives](http://sass-lang.com/documentation/file.SASS_REFERENCE.html#directives): `@import`, `@include`, `@media`, `@extend`, `@content`, `@if`, `@for`, `@each` and more.
+ - Argument list: `@include colors($values..., $map...)`
 
 ### Sass rules should be followed:
  - For nesting, we have to don't nest things in too deep or the rules that Sass will generate are going to be too unwieldy. Therefore, we will not doing any more than about three or four levels deep.
@@ -136,6 +138,9 @@ This is learning project about:
 ### Sass can write in two different ways that are:
    1. Old way `.sass` extension.
    2. Newer syntax `.scss` extensio.
+
+### Sass articles:
+ - [The Sass Way](http://thesassway.com/)
 
 ## Analyzing Sass installation options:
  - Sass has 3 types of release implementions:
