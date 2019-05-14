@@ -32,6 +32,6 @@
     "vinyl-source-stream": "^2.0.0"
   },
   "dependencies": {
-    "jquery": "^3.3.1"
+    "jquery": "^3.4.1"
   }
 }
